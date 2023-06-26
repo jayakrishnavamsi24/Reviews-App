@@ -1,0 +1,86 @@
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 700px;
+  font-family: 'Roboto';
+  margin-bottom: 100px;
+  /* background-color: #ffffff; */
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 130px;
+}
+
+.username {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.company-name {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.arrows-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.leftArrow {
+  background-color: transparent;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+}
+
+.rightArrow {
+  background-color: transparent;
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  align-self: flex-end;
+}
+
+.review-description {
+  width: 80%;
+  text-align: center;
+  color: #171f46;
+  font-size: 17px;
+  height: 100px;
+}
